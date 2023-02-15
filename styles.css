@@ -2,48 +2,111 @@
     font-family: "gotica";
     src: url(old_london/OldLondon.ttf);
 }
-#main{
-    width: 900px;
-    height: 100vh;
-    margin: auto;
-    background-image: url(bg.jpg);
-    background-size: 100%;
+body{
+    background-image: url(bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 2100px;
 }
-header{
-    width: 100%;
-    height: 76px;
-    position: relative;
-}
-section{
-    padding: 20px;
-}
-h1{
-    font-family: "gotica";
-    display: inline-block;
-    font-size: 3em;
-}
+
 *{  
     padding: 0;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
-
-.contenedor1{
+h1{
+    font-family: "gotica";
+    font-size: 3em;
     position: relative;
     text-align: center;
-    width: 200px;
-    display: inline-block;
+    top: 25px;
+}
+#main{
+    width: 900px;
+    margin: auto;
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    height: 122vh;
+    position: relative;
+
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.caja1, .caja2, .caja3{
+    height: 100px;
+    position: absolute;
+
+}
+.caja1, .caja3{
+    width: 20%;
+    text-align: center;
+}
+.caja2{
+    width: 60%;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.caja1{
+    top: 0;
     left: 0;
 }
-.contenedor2{
-    position: relative;
-    display: inline-block;
-    bottom: 20px;
+.caja3{
+    top: 0;
+    right: 0;
 }
-.contenedor3{
-    display: inline-block;
-    width: 228px;
-    height: 76px;
-}
-.contenedor3 small{
+small{
     display: block;
+    position: relative;
+    top: 25px;
+}
+.article1, .article2, .article3{
+    width: 30.73%;
+    max-height: 89%;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.1em;
+    line-height: 1.3;
+    text-align: justify;
+}
+
+.article1{
+
+}
+.article1 .div1 img{
+    width: 100%;
+
+}
+.article1 .div3 img{
+    width: 100%;
+    margin-top:10px;
+}
+.article2 .div1 img{
+    width: 100%;
+    margin-top: 10px;
+}
+.article2 .div3 img{
+    width: 100%;
+}
+.article3 .div1 h2{
+    text-align: left;
+    font-size: 1.3em;
+}
+.article3 .div1 img{
+    width: 100%;
+}
+.article3 .div2 img{
+    width: 100%;
+}
+.article3 .div3 h2{
+    text-align: left;
+    font-size: 1.2em;
+}
+.article3 .div3 img{
+    align: left;
 }
