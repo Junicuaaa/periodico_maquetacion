@@ -3,7 +3,7 @@
     src: url(old_london/OldLondon.ttf);
 }
 body{
-    background-image: url(bg2.jpeg);
+    background-image: url(img/bg2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,23 +18,30 @@ h1{
     font-size: 3em;
     position: relative;
     text-align: center;
-    top: 25px;
+    top: 55px;
 }
 #main{
     width: 900px;
     margin: auto;
-    background-image: url(bg.jpg);
+    background-image: url(img/bg.jpg);
     background-size: 100%;
-    height: 122vh;
+    height: 132vh;
     position: relative;
 
 }
 header{
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 150px;
 }
-
+.tribal2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin:auto;
+    width: 90%;
+}
 .caja1, .caja2, .caja3{
     height: 100px;
     position: absolute;
@@ -51,8 +58,16 @@ header{
     left: 0;
     margin: auto;
 }
+.caja2 img{
+    position: absolute;
+    top: -5px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 90%;
+}
 .caja1{
-    top: 0;
+    top: 20px;
     left: 0;
 }
 .caja1 img{
@@ -69,7 +84,7 @@ header{
     left: 40px;
 }
 .caja3{
-    top: 10px;
+    top: 30px;
     right: 0;
 }
 small{
@@ -120,6 +135,18 @@ small{
     text-align: left;
     font-size: 1.2em;
 }
-.article3 .div3 img{
-    align: left;
+
+.container img{
+    display: inline;
+    width: 35%;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.container p{
+    width: 65%;
+    position: absolute;
+    display: inline-block;
 }
